@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    font-family: Rubik, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+button, input, select, textarea {
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+    background-color:#101728;
+}
+
+header{
+    padding-left: 10vh;
+}
+
+header img{
+    width: 18vh;
+    height: auto;
+}
+
+.homepage{
+    display: flex;
+    justify-content: space-around;
+}
+
+.homepage div h1{
+    line-height: 7vh;
+    padding-top: 15vh;
+    padding-right: 30vh;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 5rem;
+    text-align:left;
+}
+
+.homepage div p{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    padding-right: 30vh;
+    padding-bottom: 20vh;
+}
+
+.homepage img{
+    box-shadow: rgba(18, 0, 130, 0.5) -5px 5px, rgba(18, 0, 130, 0.4) -10px 10px, rgba(18, 0, 130, 0.3) -15px 15px, rgba(18, 0, 130, 0.2) -20px 20px, rgba(18, 0, 130, 0.05) -25px 25px;
+    width: 45vh;
+    height: auto;
+    border-radius: 5%;
+}
+
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(18, 0, 130, 0.5) 0%, rgba(12, 0, 88, 0.5) 100%);
+  box-shadow: 0 0.7em 1.5em -0.5em rgba(28, 0, 209, 0.5);
+  letter-spacing: 0.05em;
+  border-top: 20vh;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em rgb(24, 4, 150);
+  transform: scale(1.1);
+  transition: 1.5s;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em rgba(168, 164, 190, 0.5);
+}
