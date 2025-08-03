@@ -34,18 +34,27 @@ a {
 }
 
 body{
-    background-color:#101728;
+    background-color:#040b1b;
 }
 
 header{
-    padding-left: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    padding: 2rem 5rem 5rem;
 }
 
 header img{
-    width: 18vh;
+    width: 9rem;
     height: auto;
 }
-
+.logo-text{
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+}
 .homepage{
     display: flex;
     justify-content: space-around;
@@ -103,4 +112,108 @@ header img{
 
 .button-88:active {
   box-shadow: 0 0.3em 1em -0.5em rgba(168, 164, 190, 0.5);
+}
+
+.about{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15rem;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 8vh;
+    text-align: center;
+}
+
+.about span{
+    color: rgba(18, 0, 130, 1) ;
+}
+
+.about p{
+    font-size: 1.3rem;
+    padding: 0 25vh;
+    padding-bottom: 15rem;
+    text-align: center;
+}
+
+.points{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15rem;
+}
+
+.points div{
+    padding-top: 5rem;
+}
+
+.points div h2{
+    padding-bottom: 3vh;
+    line-height: 7vh;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align:left;
+}
+
+.points div ul{
+    line-height: 3.5vh;
+    list-style: square;
+    padding-left: 0;
+    color: #fff;
+}
+
+.points img{
+    width: 60vh;
+    height: auto;
+    border-radius: 10%;
+    box-shadow: -13px 15px 57px -1px rgba(0,0,0,0.20);
+}
+
+.cta {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.cta h2{
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.cta p{
+    color: #fff;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+}
+
+footer{
+    width: auto;
+    height: auto;
+    display: flex;
+    background-color: #02050e;
+    justify-content: space-around;
+}
+
+footer div{
+    flex-direction: column;
+    color: #fff;
+    display: flex;
+
+}
+
+footer h2{
+    color:  rgba(18, 0, 130, 1);
+    font-size: 3rem;
+}
+
+footer img{
+    height: 10rem;
 }
